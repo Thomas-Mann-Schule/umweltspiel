@@ -16,8 +16,10 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        prepare();
+        super(600, 500, 1); 
+        //prepare();
+        this.showText("Test", 100, 200);
+        
     }
 
     /**
@@ -26,10 +28,10 @@ public class MyWorld extends World
      */
     private void prepare()
     {
-        background background = new background();
-        addObject(background,315,209);
-        background.setLocation(558,232);
-        background.setLocation(365,229);
-        background.setLocation(365,197);
+        //background background = new background();
+        //addObject(background,315,209);
+        //background.setLocation(558,232);
+        //background.setLocation(365,229);
+        //background.setLocation(365,197);
     }
 }

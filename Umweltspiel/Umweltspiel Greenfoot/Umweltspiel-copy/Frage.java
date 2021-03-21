@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-public String myTextbox;
+//public String myTextbox;
 /**
  * Write a description of class Frage here.
  * 
@@ -14,16 +14,20 @@ public class Frage extends Actor
      */
     public void act() 
     {
+        GreenfootImage image = getImage();
+        image.clear();
+        image.setColor(Color.BLACK);
+        image.drawString("test", 10, 10);
         
     }    
-    public void writeText(String myText)
+    /*public void writeText(String myText)
     {
         GreenfootImage image = getImage();
         image.clear();
         image.setColor(Color.BLACK);
-        image.drawString(meinText, 10, 10);
-    }
-    myTextbox = new Score();
-    addObject(myTextbox, 4, 0);
-    myTextbox.writeText("Hello")
+        image.drawString(myText, 10, 10);
+    }*/
+    //myTextbox = new Score();
+    //addObject(myTextbox, 4, 0);
+    //myTextbox.writeText("Hello")
 }
