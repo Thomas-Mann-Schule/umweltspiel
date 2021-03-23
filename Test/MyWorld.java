@@ -19,6 +19,10 @@ public class MyWorld extends World
         super(900, 550, 1); 
         this.showText("Was kostet die Welt", 100, 50);
         this.addObject( new Muellobjekt1(),450,500);
+        this.addObject( new Muellobjekt2(),550,400);
+        this.addObject( new Muellobjekt3(),450,500);
         this.addObject( new Antwortmoeglichkeit1(),1,1);
+        this.addObject( new Antwortmoeglichkeit2(),1,1);
+        this.addObject( new Antwortmoeglichkeit3(),1,1);
     }
 }
