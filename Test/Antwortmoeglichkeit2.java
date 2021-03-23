@@ -14,6 +14,9 @@ public class Antwortmoeglichkeit2 extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        this.getWorld().showText("Antwort2", 400,500);
+        if(Greenfoot.mouseClicked(this))
+            this.getWorld().showText("Richtig", 800,500);
+            this.getWorld().addObject( new Startknopf(),200,200);
     }    
 }
