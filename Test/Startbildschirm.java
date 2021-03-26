@@ -18,5 +18,6 @@ public class Startbildschirm extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(810, 460, 1); 
         this.addObject( new Startknopf(),450,250);
+        this.showText("Drücke den Totenkopf zum Starten", 300, 50);
     }
 }

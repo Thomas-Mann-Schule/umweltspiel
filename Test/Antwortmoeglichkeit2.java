@@ -14,9 +14,9 @@ public class Antwortmoeglichkeit2 extends Actor
      */
     public void act() 
     {
-        this.getWorld().showText("Antwort2", 400,500);
+        this.getWorld().showText("Asien", 450,500);
         if(Greenfoot.mouseClicked(this))
-            this.getWorld().showText("Richtig", 800,500);
-            this.getWorld().addObject( new Startknopf(),200,200);
+            this.getWorld().showText("Falsch", 800,300);
+            
     }    
 }

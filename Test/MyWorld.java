@@ -15,14 +15,15 @@ public class MyWorld extends World
      */
     public MyWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(900, 550, 1); 
-        this.showText("Was kostet die Welt", 100, 50);
-        this.addObject( new Muellobjekt1(),450,500);
-        this.addObject( new Muellobjekt2(),550,400);
-        this.addObject( new Muellobjekt3(),450,500);
-        this.addObject( new Antwortmoeglichkeit1(),1,1);
-        this.addObject( new Antwortmoeglichkeit2(),1,1);
-        this.addObject( new Antwortmoeglichkeit3(),1,1);
+        this.showText("Welcher Kontinent ist der größte Müllproduzent?", 300, 50);
+        this.showText("Tippe auf die Müllobjekte für Tipps", 300, 80);
+        this.addObject( new Muellobjekt1(),150,350);
+        this.addObject( new Muellobjekt2(),350,400);
+        this.addObject( new Muellobjekt3(),500,350);
+        this.addObject( new Antwortmoeglichkeit1(),100,500);
+        this.addObject( new Antwortmoeglichkeit2(),450,500);
+        this.addObject( new Antwortmoeglichkeit3(),800,500);
+        this.addObject( new Startknopf2(),450,250);
     }
 }
