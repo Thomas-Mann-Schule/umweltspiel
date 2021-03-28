@@ -14,9 +14,11 @@ public class Antwortmoeglichkeit3 extends Actor
      */
     public void act() 
     {
-         this.getWorld().showText("Europa", 800,500);
-        if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("Falsch", 800,300);
-           
+        GreenfootImage image = new GreenfootImage("images/11.png");
+        image.scale(image.getWidth()/4,image.getHeight()/4);
+        this.getWorld().showText("Europa", 800,500);
+        if(Greenfoot.mouseClicked(this)){
+           setImage(image);
+        }
     }    
 }

@@ -13,6 +13,7 @@ public class MyWorld extends World
      * Constructor for objects of class MyWorld.
      * 
      */
+    
     public MyWorld()
     {    
         super(900, 550, 1); 
@@ -24,6 +25,6 @@ public class MyWorld extends World
         this.addObject( new Antwortmoeglichkeit1(),100,500);
         this.addObject( new Antwortmoeglichkeit2(),450,500);
         this.addObject( new Antwortmoeglichkeit3(),800,500);
-        this.addObject( new Startknopf2(),450,250);
+        
     }
 }
