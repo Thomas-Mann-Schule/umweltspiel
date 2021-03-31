@@ -15,6 +15,6 @@ public class Tipp2 extends Actor
     public void act() 
     {
            if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("Tipp2", 300,180);
+           this.getWorld().showText("Die Top 3 Wasserverbraucher sind Avocado, Kiwi und Bananen", 300,180);
     }    
 }

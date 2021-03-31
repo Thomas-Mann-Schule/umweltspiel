@@ -14,8 +14,10 @@ public class Answer2 extends Actor
      */
     public void act() 
     {
-        this.getWorld().showText("Industrie", 320,380);
+        GreenfootImage image = new GreenfootImage("images/th.png");     //Bild einlesen und in image speichern
+        image.scale(image.getWidth()/4,image.getHeight()/4);  
+        this.getWorld().showText("Banane", 400,400);
         if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("Richtig", 450,300);
+           setImage(image);  
     }    
 }

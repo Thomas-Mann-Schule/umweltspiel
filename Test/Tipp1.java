@@ -15,6 +15,6 @@ public class Tipp1 extends Actor
     public void act() 
     {
          if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("Tipp1", 300,150);
+           this.getWorld().showText("Erdbeeren verbrauchen weniger als Bananen", 300,150);
     }    
 }

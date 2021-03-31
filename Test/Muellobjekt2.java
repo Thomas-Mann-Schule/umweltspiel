@@ -21,6 +21,6 @@ public class Muellobjekt2 extends Actor
     public void act() 
     {
         if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("China und Japan sind unter den Top5", 350,180);
+           this.getWorld().showText("China und Japan sind unter den Top5", 380,250);
     }    
 }

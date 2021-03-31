@@ -14,8 +14,10 @@ public class Answer1 extends Actor
      */
     public void act() 
     {
-        this.getWorld().showText("Haushalt", 60,380);
+        GreenfootImage image = new GreenfootImage("images/11.png");
+        image.scale(image.getWidth()/4,image.getHeight()/4);
+        this.getWorld().showText("Erdbeere",150,400);
         if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("Falsch", 450,300);
+           setImage(image);
     }    
 }

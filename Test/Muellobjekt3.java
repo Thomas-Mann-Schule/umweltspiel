@@ -21,6 +21,6 @@ public class Muellobjekt3 extends Actor
     public void act() 
     {
         if(Greenfoot.mouseClicked(this))
-           this.getWorld().showText("USA ist auf Platz 1", 500,220);
+           this.getWorld().showText("USA ist auf Platz 1", 800,250);
     }    
 }

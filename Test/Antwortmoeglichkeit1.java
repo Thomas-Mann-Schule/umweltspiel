@@ -19,7 +19,7 @@ public class Antwortmoeglichkeit1 extends Actor
         this.getWorld().showText("Amerika", 100,500);                   //Beschriftung des Buttons einfügen
         if(Greenfoot.mouseClicked(this)){                               //Wenn Button geklickt wird
            setImage(image);                                             //Bild anzeigen
-           Greenfoot.delay(50);                                         //Kurz pausieren
+           Greenfoot.delay(100);                                        //Kurz pausieren
            Greenfoot.setWorld(new MyWorld2());                          //In die nächste Welt springen
         }    
     }
